@@ -1,0 +1,4 @@
+interface Chargeable {double chargingFee(int kWh); default String chargingMessage(){return "Charging capability available";} static boolean validUnits(int kWh){return kWh>=0;}}
+abstract class AbstractVehicle {private final String reg;AbstractVehicle(String r){reg=r;}String getReg(){return reg;}abstract double parkingFee(int hours);}
+class EV extends AbstractVehicle implements Chargeable {EV(String r){super(r);}public double chargingFee(int kWh){if(!Chargeable.validUnits(kWh))throw new IllegalArgumentException();return kWh*12.0;}double parkingFee(int h){return h*30.0;}}
+public class Task09 {public static void main(String[] a){EV ev=new EV("TN09EV");System.out.println("Abstract vehicle state: "+ev.getReg());System.out.println("Parking fee Rs "+ev.parkingFee(2));System.out.println("Charging fee Rs "+ev.chargingFee(5));System.out.println(ev.chargingMessage());}}

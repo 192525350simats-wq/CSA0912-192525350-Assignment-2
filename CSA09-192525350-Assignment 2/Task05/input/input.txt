@@ -1,0 +1,2 @@
+Facilities: North, South
+Issue one ticket at each gate

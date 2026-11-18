@@ -1,0 +1,4 @@
+Abstract vehicle state: TN09EV
+Parking fee Rs 60.0
+Charging fee Rs 60.0
+Charging capability available

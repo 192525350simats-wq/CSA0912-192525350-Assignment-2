@@ -1,0 +1,1 @@
+slot=(floor 0, number 5); park TN10XY1234; attempt TN11ZZ9999; release twice

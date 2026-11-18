@@ -1,0 +1,4 @@
+Floor capacities=2,3,1,4,2
+E-bike=flat Rs 25
+Delivery van=double car rate 09:00-17:00; standard rate otherwise
+Visitor one-day pass=valid for issue date

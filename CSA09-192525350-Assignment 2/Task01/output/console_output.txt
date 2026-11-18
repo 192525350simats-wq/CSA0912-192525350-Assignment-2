@@ -1,0 +1,7 @@
+Candidate classes: ParkingFacility, Floor, ParkingSlot, Vehicle, ParkingTicket, User, ParkingPass
+Vehicle object: TN01AB1111, type=CAR, entry=1731900000
+Inputs: registration, vehicle type, user/pass, entry and exit time
+Outputs: allocated slot, ticket number, duration and fee
+Rules: one vehicle per slot; unique ticket IDs; release only occupied slots
+Alternative parallel arrays: linear search O(n), attribute addition updates another array
+Object list: linear search O(n), add attribute to Vehicle class once

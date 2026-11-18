@@ -1,0 +1,8 @@
+Representation: jagged String[][]
+Floor 0 slots=3
+Floor 1 slots=2
+Floor 2 slots=4
+minutes=61, billableHours=2, fee=Rs 40.0
+Wrong integer division: 61 / 60 = 1 (undercharges)
+Correct ceiling: (minutes + 59) / 60 = 2
+Search time O(total slots); storage O(total slots)

@@ -1,0 +1,3 @@
+slotsPerFloor=3,2,4
+minutes=61
+hourlyRate=20.0

@@ -1,0 +1,1 @@
+TwoWheeler, Car, ElectricCar; parking duration=130 minutes; EV charging=10 kWh

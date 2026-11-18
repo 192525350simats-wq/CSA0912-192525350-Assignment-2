@@ -1,0 +1,2 @@
+package parking.model;
+public class ParkingSlot {private final int floor,number;private String vehicle;public ParkingSlot(int floor,int number){if(floor<0||number<0)throw new IllegalArgumentException("Invalid slot");this.floor=floor;this.number=number;}public boolean occupy(String reg){if(reg==null||reg.isBlank()||vehicle!=null)return false;vehicle=reg;return true;}public boolean release(){if(vehicle==null)return false;vehicle=null;return true;}public String getVehicle(){return vehicle;}public String toString(){return "Floor "+floor+", slot "+number+", vehicle="+vehicle;}}

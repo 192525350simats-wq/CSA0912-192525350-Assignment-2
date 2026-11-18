@@ -1,0 +1,9 @@
+PASS parked TN01AA at 0:0
+PASS parked TN02BB at 1:0
+REJECT full
+REJECT duplicate
+PASS exit TN01AA fee Rs 10.0
+PASS parked TN03CC at 0:0
+PASS exit TN03CC fee Rs 0.0
+REJECT unknown
+Daily total for completed exits = Rs 10 (hand calculation: 1 hour x Rs 10)

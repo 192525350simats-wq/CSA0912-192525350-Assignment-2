@@ -1,0 +1,1 @@
+EV registration TN09EV; parking hours=2; energy=5 kWh

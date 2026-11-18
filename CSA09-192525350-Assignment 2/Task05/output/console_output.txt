@@ -1,0 +1,4 @@
+North ticket=5001
+South ticket=5002
+Tickets issued across facilities=2
+After exit, an unreferenced ticket is eligible for garbage collection

@@ -1,0 +1,9 @@
+@startuml
+class Vehicle
+class Car
+class TwoWheeler
+class ElectricCar
+Vehicle <|-- Car
+Vehicle <|-- TwoWheeler
+Car <|-- ElectricCar
+@enduml

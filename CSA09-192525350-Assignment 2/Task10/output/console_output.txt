@@ -1,0 +1,5 @@
+Park accepted: true
+Floor 0, slot 5, vehicle=TN10XY1234
+Second vehicle accepted: false
+Exit accepted: true
+Exit again: false

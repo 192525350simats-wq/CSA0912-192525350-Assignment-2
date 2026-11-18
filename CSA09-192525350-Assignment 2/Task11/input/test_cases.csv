@@ -1,0 +1,7 @@
+case,input,expected
+normal,park bike,accepted
+boundary,last free slot,accepted
+full,third vehicle,rejected
+duplicate,existing registration,rejected
+zero duration,exit after 0 min,Rs 0
+unknown exit,missing registration,rejected

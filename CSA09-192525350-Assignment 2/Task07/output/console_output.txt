@@ -1,0 +1,3 @@
+Bike[TN01AA] fee Rs 20.0
+Sedan[TN02BB] fee Rs 60.0
+Same registration objects equal? true
